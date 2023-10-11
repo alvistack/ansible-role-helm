@@ -5,36 +5,24 @@
 -   Support Fedora 39
 -   Support Ubuntu 23.10
 
-### Major Changes
-
 ## 8.4.0 - 2023-09-14
-
-### Major Changes
 
 -   Support Ansible community package 8.4.0
 
 ## 8.3.0 - 2023-08-15
 
-### Major Changes
-
 -   Support Ansible community package 8.3.0
 
 ## 8.2.0 - 2023-07-24
-
-### Major Changes
 
 -   Support Ansible community package 8.2.0
 -   Remove Ubuntu 22.10 support
 
 ## 8.1.0 - 2023-06-23
 
-### Major Changes
-
 -   Support Ansible community package 8.1.0
 
 ## 8.0.0 - 2023-06-17
-
-### Major Changes
 
 -   Remove Ubuntu 18.04 support
 -   Remove Debian 10 support
@@ -44,20 +32,14 @@
 
 ## 7.6.0 - 2023-05-24
 
-### Major Changes
-
 -   Support Ansible community package 7.6.0
 
 ## 7.5.0 - 2023-05-16
-
-### Major Changes
 
 -   Remove Fedora 36 support
 -   Support Fedora 38
 
 ## 7.4.0 - 2023-03-29
-
-### Major Changes
 
 -   Support Ansible community package 7.4.0
 -   Support Ubuntu 23.04
@@ -66,13 +48,9 @@
 
 -   Support Ansible community package 7.3.0
 
-### Major Changes
-
 ## 7.2.0 - 2023-02-01
 
 -   Support Ansible community package 7.2.0
-
-### Major Changes
 
 ## 7.1.0 - 2022-12-19
 
