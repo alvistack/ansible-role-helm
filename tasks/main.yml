@@ -59,3 +59,5 @@
   loop: "{{ _helm_plugin }}"
   register: result
   until: result is succeeded
+  tags:
+    - _helm_plugin
