@@ -51,24 +51,3 @@
       paths:
         - .
       skip: true
-
-- name: prepare directories
-  ansible.builtin.file:
-    dest: "{{ item.dest }}"
-    owner: "{{ item.owner | default('root') }}"
-    group: "{{ item.group | default('root') }}"
-    mode: "{{ item.mode | default('0755') }}"
-    state: "{{ item.state | default('directory') }}"
-  loop:
-    - { dest: /root/.local/share/helm/plugins }
-
-- name: rsync directories
-  ansible.posix.synchronize:
-    dest: "{{ item.dest }}"
-    src: "{{ item.src | default('./files' + item.dest + '/') }}"
-    archive: true
-    delete: true
-    owner: false
-    group: false
-  loop:
-    - { dest: /root/.local/share/helm/plugins/helm-diff }

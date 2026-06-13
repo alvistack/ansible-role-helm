@@ -33,3 +33,4 @@ _yum_repository:
 
 _dnf:
   - { state: latest, name: helm }
+  - { state: latest, name: helm-diff }

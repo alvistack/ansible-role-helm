@@ -28,6 +28,7 @@
       ansible.builtin.shell:
         cmd: |
           set -euxo pipefail
+          source /etc/profile.d/helm.sh
           helm plugin list | grep 'diff'
       args:
         executable: /bin/bash
