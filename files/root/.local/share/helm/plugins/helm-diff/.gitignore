@@ -1,0 +1,10 @@
+vendor/
+bin/
+build/
+release/
+dist/
+.envrc
+.idea
+docker-run-release-cache/
+.vscode/
+/cover.out
