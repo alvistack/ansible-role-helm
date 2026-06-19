@@ -51,13 +51,3 @@
       paths:
         - .
       skip: true
-
-- name: helm plugin install
-  kubernetes.core.helm_plugin:
-    plugin_path: "{{ item.plugin_path }}"
-    state: "{{ item.state }}"
-  loop: "{{ _helm_plugin }}"
-  register: result
-  until: result is succeeded
-  tags:
-    - _helm_plugin

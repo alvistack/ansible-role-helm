@@ -31,3 +31,4 @@ _deb822_repository:
 
 _apt:
   - { state: latest, name: helm }
+  - { state: latest, name: helm-diff }

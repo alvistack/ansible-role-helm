@@ -23,3 +23,13 @@
         cmd: helm version
       register: result
       changed_when: result is not succeeded
+
+    - name: helm plugin list
+      ansible.builtin.shell:
+        cmd: |
+          set -euxo pipefail
+          helm plugin list | grep 'diff'
+      args:
+        executable: /bin/bash
+      register: result
+      changed_when: result is not succeeded
